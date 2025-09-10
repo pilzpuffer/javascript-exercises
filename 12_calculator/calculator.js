@@ -23,21 +23,23 @@ const multiply = function(array) {
 };
 
 const power = function(a, b) {
-    let numberArray = [];
-    for (let i = 0; i < b; i++) {
-      numberArray.push(a)
-    }
+  //   let numberArray = [];
+  //   for (let i = 0; i < b; i++) {
+  //     numberArray.push(a)
+  //   }
 
-	if (b > 0) {
-    return numberArray.reduce((acc, currNumber) => acc * currNumber);
+	// if (b > 0) {
+  //   return numberArray.reduce((acc, currNumber) => acc * currNumber);
 
-  } else if (b < 0) {
-    let divisor = numberArray.reduce((acc, currNumber) => acc * currNumber);
-    return 1 / divisor;
+  // } else if (b < 0) {
+  //   let divisor = numberArray.reduce((acc, currNumber) => acc * currNumber);
+  //   return 1 / divisor;
 
-  } else if (b === 0) {
-    return 1;
-  }
+  // } else if (b === 0) {
+  //   return 1;
+  // }
+
+  return a ** b;
 };
 
 const factorial = function(a) {
