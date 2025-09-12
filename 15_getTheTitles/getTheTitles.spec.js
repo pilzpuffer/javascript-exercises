@@ -9,7 +9,7 @@ describe('getTheTitles', () => {
       {
         title: 'Book2',
         author: 'Name2'
-      }
+      },
     ]
 
   test('gets titles', () => {
